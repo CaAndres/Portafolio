@@ -1,97 +1,184 @@
 <!DOCTYPE html>
-<html lang="en">
-    <link rel="stylesheet" href="/css/style.css">
-
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AS Designe</title>
+    <title>Portfolio - Desarrollador Camilo Ruiz</title>
+    <link rel="stylesheet" href="/Web_Designe Camilo Ruiz/Css/style.css">
 </head>
-
 <body>
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Portafolio de Camilo</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <header class="header">
-            <nav class="navbar">
-                <div class="brand">
-                    <h1>Camilo Ruiz</h1>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div style="display: flex; align-items: center;">
+            <span style="font-weight: bold; font-size: 1.25rem;">CR</span>
+            <div class="nav-links">
+                <a href="#" class="active">Home</a>
+                <a href="#">Contact</a>
+                <a href="#">About me</a>
+                <a href="#">Projects</a>
+            </div>
+        </div>
+        <div class="search-bar">
+            <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+            </svg>
+            <input type="text" placeholder="Search">
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="purple-pill"></div>
+            <h1 class="hero-title">Desarrollador Java/Junior FullStack</h1>
+            <div class="hero-buttons">
+                <button class="btn-primary">About me</button>
+                <button class="btn-secondary">Projects</button>
+            </div>
+
+            <div class="stats">
+                <div class="avatar-stack">
+                    <div class="avatar"></div>
+                    <div class="avatar"></div>
+                    <div class="avatar"></div>
+                    <div class="avatar"></div>
+                    <div class="avatar"></div>
                 </div>
-                <ul class="nav-links">
-                    <li><a href="#about">Sobre mí</a></li>
-                    <li><a href="#skills">Habilidades</a></li>
-                    <li><a href="#projects">Proyectos</a></li>
-                    <li><a href="#contact">Contacto</a></li>
+                <div style="display: flex; align-items: center; gap: 0.5rem;">
+                    <span style="color: #eab308;">★</span>
+                    <span style="font-weight: bold;">15</span>
+                </div>
+                <p style="color: #666; font-size: 0.875rem;">Recomendaciones personales de conocidos</p>
+            </div>
+
+            <div class="metrics">
+                <div class="metric-card">
+                    <span class="metric-number">3</span>
+                    <p>Projects</p>
+                    <span class="Flecha1">↗</span>
+                </div>
+                <div class="metric-card">
+                    <span class="metric-number">5</span>
+                    <p>Certificates</p>
+                    <span class="Flecha2">↗</span>
+                </div>
+                <div class="metric-card">
+                    <span class="metric-number">6</span>
+                    <p>Age experience of graphic designe</p>
+                    <span class="Flecha3">↗</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <div class="image-placeholder"></div>
+            <div class="floating-badge">
+                <div class="badge-icon">↗</div>
+                <span>conmigo?</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Logos Section -->
+    <section class="logos-section">
+        <div class="logo-item">LOGO IPSUM</div>
+        <div class="logo-item">logo ipsum</div>
+        <div class="logo-item">LOQO</div>
+        <div class="logo-item">Logoipsum</div>
+        <div class="logo-item">Logoipsum</div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="about-grid">
+            <div>
+                <h2 class="about-title">About Me</h2>
+                <div class="skill-bar">
+                    <div class="skill-name">Lorem ipsum</div>
+                    <div class="progress-bar">
+                        <div class="progress"></div>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-name">Lorem ipsum</div>
+                    <div class="progress-bar">
+                        <div class="progress" style="background: #f97316;"></div>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-name">Lorem ipsum</div>
+                    <div class="progress-bar">
+                        <div class="progress"></div>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-name">Lorem ipsum</div>
+                    <div class="progress-bar">
+                        <div class="progress" style="background: #f97316;"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="image-grid">
+                <div class="grid-image">
+                    <div class="image-badge">↗</div>
+                </div>
+                <div class="grid-image">
+                    <div class="image-badge">↗</div>
+                </div>
+                <div class="grid-image">
+                    <div class="image-badge">↗</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h3>Sobre Nosotros</h3>
+                <p>Una carrera profesional se refiere al camino a largo plazo que incluye varios roles y experiencias.</p>
+                <div class="social-links">
+                    <a href="#">f</a>
+                    <a href="#">in</a>
+                    <a href="#">t</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Menú</h3>
+                <ul class="footer-links">
+                    <li>Inicio</li>
+                    <li>Acerca de</li>
+                    <li>Contacto</li>
+                    <li>Blog</li>
                 </ul>
-            </nav>
-        </header>
-    
-        <section class="hero">
-            <h2>¡Hola! Soy Camilo</h2>
-            <p>Diseñador gráfico y desarrollador Full Stack apasionado por crear soluciones creativas y funcionales.</p>
-            <a href="#projects" class="cta-button">Ver mis proyectos</a>
-        </section>
-    
-        <section id="about" class="about">
-            <h2>Sobre mí</h2>
-            <p>Soy un diseñador y desarrollador con experiencia en diseño gráfico y desarrollo web. Me apasiona aprender nuevas tecnologías y transformar ideas en productos digitales.</p>
-        </section>
-    
-        <section id="skills" class="skills">
-            <h2>Habilidades</h2>
-            <div class="skills-container">
-                <div class="skill">HTML</div>
-                <div class="skill">CSS</div>
-                <div class="skill">JavaScript</div>
-                <div class="skill">React</div>
-                <div class="skill">Figma</div>
-                <div class="skill">Photoshop</div>
             </div>
-        </section>
-    
-        <section id="projects" class="projects">
-            <h2>Proyectos</h2>
-            <div class="project-container">
-                <div class="project-card">
-                    <h3>Proyecto 1</h3>
-                    <p>Descripción breve del proyecto.</p>
-                    <a href="#" class="project-link">Ver proyecto</a>
-                </div>
-                <div class="project-card">
-                    <h3>Proyecto 2</h3>
-                    <p>Descripción breve del proyecto.</p>
-                    <a href="#" class="project-link">Ver proyecto</a>
-                </div>
-                <div class="project-card">
-                    <h3>Proyecto 3</h3>
-                    <p>Descripción breve del proyecto.</p>
-                    <a href="#" class="project-link">Ver proyecto</a>
+            <div class="footer-col">
+                <h3>Explorar</h3>
+                <ul class="footer-links">
+                    <li>Recursos</li>
+                    <li>Blog</li>
+                    <li>Documentos</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Ayuda y Soporte</h3>
+                <ul class="footer-links">
+                    <li>Preguntas Frecuentes</li>
+                    <li>Contáctanos</li>
+                    <li>Configuración de Cuenta</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>UBICACIÓN DE LA OFICINA</h3>
+                <p>Dirección: Lorem ipsum Dolore Sit Amet</p>
+                <h3>Boletín</h3>
+                <div class="newsletter">
+                    <input type="email" placeholder="Ingresa tu correo electrónico">
                 </div>
             </div>
-        </section>
+        </div>
+    </footer>
     
-        <section id="contact" class="contact">
-            <h2>Contacto</h2>
-            <p>Si quieres trabajar conmigo, no dudes en contactarme.</p>
-            <a href="mailto:camiloruiz@example.com" class="cta-button">Enviar correo</a>
-        </section>
-    
-        <footer class="footer">
-            <p>&copy; 2025 Camilo Ruiz. Todos los derechos reservados.</p>
-        </footer>
-    </body>
-    </html>
-    
-
-
-
-
-    <script src="../JS/scrip.js"></script>
 </body>
 </html>
